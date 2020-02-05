@@ -286,14 +286,18 @@
 	position: absolute;
 	left: 0;
 	top: 100%;
-	background-color: #295bd8;
+	background-color: #929292;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
 }
+.filter-services li:hover:before {
+	width: 100%;
+}
 .filter-services li.active:before {
 	width: 100%;
+	background-color: #295bd8;
 }
 .services-wrap {
 	display: none;
