@@ -90,6 +90,7 @@ $(document).ready(function(){
 	$('.partners').slick({
 		arrows: false,
 		dots: true,
+		autoplay: true,
 		slidesToShow: 4,
 		slidesToScroll: 4,
 		responsive: [
