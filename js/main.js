@@ -87,6 +87,40 @@ $(document).ready(function(){
 		speed: 700
 	});
 
+	$('.partners').slick({
+		arrows: false,
+		dots: true,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 560,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+
+	$('.b-select select').chosen({
+		disable_search: true
+	});
+
 	$(document).on('click','.filter-services li',function(){
 		if ( !$(this).hasClass('active') ){
 			var el = $(this).attr('data-filter');
