@@ -151,4 +151,11 @@ $(document).ready(function(){
 	}
 	inputId();
 
+	function footerYear(){
+		var date = new Date();
+		var year = date.getFullYear();
+		$('#footer-year').text(year);
+	}
+	footerYear();
+
 });
