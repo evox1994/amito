@@ -380,6 +380,9 @@ textarea::-webkit-input-placeholder, textarea:-moz-placeholder {
     top: calc(50% - 10px);
     box-sizing: border-box;
 }
+.policy-text .radio-btn.green {
+    border-color: #28b43e;
+}
 .policy-text .radio-btn.error {
     border-color: #ff0000;
 }
@@ -413,6 +416,10 @@ textarea::-webkit-input-placeholder, textarea:-moz-placeholder {
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
+}
+.policy-text .radio-btn.green.active::before,
+.policy-text .radio-btn.green.active::after {
+    background-color: #28b43e;
 }
 
 
