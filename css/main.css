@@ -428,12 +428,43 @@
 	padding: 230px 0 130px;
 	text-align: left;
 	color: #ffffff;
+	background-color: #0e1943;
+}
+.first-ekr.with-blackout:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.first-ekr-flex {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.first-ekr-content {
+	width: 580px;
+}
+.first-ekr-image {
+	width: calc(100% - 610px);
+}
+.first-ekr-image img {
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
 }
 .first-ekr-text {
 	font-size: 20px;
 	line-height: 1.2;
 	margin-top: 60px;
 	max-width: 380px;
+}
+.first-ekr-text.big {
+	max-width: 450px;
 }
 .first-ekr-text.small-margin {
 	margin-top: 35px;
@@ -451,7 +482,7 @@
 	max-width: 570px;
 }
 .ekr {
-	padding: 50px 0;
+	padding: 90px 0;
 }
 .ekr.left-align {
 	text-align: left;
@@ -647,9 +678,15 @@
 .services-top.small {
 	padding-top: 40px;
 }
+.services-top.gray {
+	background-color: #ecf1f6;
+}
 .services-bot {
 	background-color: #ecf1f6;
 	padding-bottom: 400px;
+}
+.services-bot.white {
+	background-color: #ffffff;
 }
 .services-bot.small {
 	padding-bottom: 50px;
@@ -1056,6 +1093,9 @@
 	color: #ffffff;
 	text-align: left;
 }
+.preim-block.no-pad-bot {
+	padding-bottom: 90px;
+}
 .preim-list {
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -1106,6 +1146,10 @@
 
 .services-nav {
 	padding: 100px 0 380px;
+	text-align: left;
+}
+.services-nav.no-pad-top {
+	padding-top: 10px;
 }
 .services-nav-wrap {
 	display: -webkit-flex;
@@ -1114,7 +1158,9 @@
 	justify-content: space-between;
 	align-items: stretch;
 	flex-wrap: wrap;
-	text-align: left;
+}
+.services-nav-wrap.with-margin {
+	margin-top: 70px;
 }
 .services-nav-item {
 	width: calc(50% - 15px);
@@ -1496,6 +1542,78 @@
 	margin-left: auto;
 }
 
+.service-descr {
+	text-align: left;
+	padding: 70px 0 290px;
+}
+.service-descr-text {
+	font-size: 14px;
+	line-height: 1.2;
+}
+.service-descr-text ul li {
+	position: relative;
+	padding-left: 20px;
+}
+.service-descr-text ul li:before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	background-color: #295bd8;
+	position: absolute;
+	left: 0;
+	top: 6px;
+}
+.service-descr-text img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.news-list li {
+	position: relative;
+	padding: 40px 100px 30px 230px;
+	background-color: #ecf1f6;
+	width: 100%;
+	max-width: 1030px;
+	margin: 0 auto 50px;
+	text-align: left;
+}
+.news-list li:last-child {
+	margin-bottom: 0;
+}
+.news-list li .image {
+	width: 175px;
+	position: absolute;
+	left: 0;
+	top: -10px;
+	box-shadow: 0px 3px 16px 0px rgba(14, 25, 67, 0.2);
+}
+.news-list li .image img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.news-list li .name {
+	font-size: 16px;
+	line-height: 1.2;
+}
+.news-list li .news-list-flex {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+.news-list li .more {
+	font-size: 14px;
+	color: #295bd8;
+}
+.news-list li .date {
+	font-size: 14px;
+	color: #a2acc4;
+}
+
 
 
 
@@ -1597,6 +1715,16 @@
 
 	.first-ekr {
 		padding: 120px 0;
+	}
+	.first-ekr-flex {
+		display: block;
+	}
+	.first-ekr-content {
+		width: 100%;
+		max-width: 580px;
+	}
+	.first-ekr-image {
+		display: none;
 	}
 
 	.face-slide {
@@ -1795,6 +1923,9 @@
 		margin-top: 20px;
 		max-width: 310px;
 	}
+	.first-ekr-text.big {
+		max-width: 360px;
+	}
 	.first-ekr-text.small-margin {
 		margin-top: 15px;
 	}
@@ -1811,7 +1942,7 @@
 		width: calc(50% - 10px);
 	}
 	.ekr {
-		padding: 30px 0;
+		padding: 50px 0;
 	}
 
 	.main-title {
@@ -2021,6 +2152,9 @@
 	.preim-block {
 		padding: 50px 0 270px;
 	}
+	.preim-block.no-pad-bot {
+		padding-bottom: 50px;
+	}
 	.preim-list {
 		margin-top: 30px;
 	}
@@ -2048,6 +2182,9 @@
 
 	.services-nav {
 		padding: 50px 0 270px;
+	}
+	.services-nav-wrap.with-margin {
+		margin-top: 30px;
 	}
 	.services-nav-item {
 		border-width: 5px;
@@ -2204,6 +2341,37 @@
 	.thank .wrap .image img {
 		margin: 0 auto;
 		max-height: 200px;
+	}
+
+	.service-descr {
+		padding: 50px 0 270px;
+	}
+	.service-descr-text {
+		font-size: 12px;
+	}
+	.service-descr-text ul li {
+		padding-left: 15px;
+	}
+	.service-descr-text ul li:before {
+		top: 4px;
+	}
+
+	.news-list li {
+		padding: 30px;
+		text-align: center;
+		margin: 0 auto 30px;
+	}
+	.news-list li .image {
+		display: inline-block;
+		width: 100%;
+		max-width: 175px;
+		margin-top: -40px;
+		margin-bottom: 20px;
+		position: relative;
+		top: 0;
+	}
+	.news-list li .news-list-flex {
+		margin-top: 20px;
 	}
 }
 @media screen and (max-width: 560px){
