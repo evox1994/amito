@@ -1775,6 +1775,41 @@
 	bottom: -15%;
 }
 
+.popup {
+	padding: 50px 30px;
+	background-color: #ffffff;
+	width: 95%;
+	max-width: 460px;
+	text-align: center;
+}
+.popup.popup-big {
+	max-width: 760px;
+	text-align: left;
+}
+.popup-title {
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+.popup-subtitle {
+	display: block;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-top: 15px;
+}
+.popup .b-form {
+	margin-top: 40px;
+}
+.popup-text {
+	margin-top: 30px;
+	font-size: 16px;
+	line-height: 1.2;
+}
+.popup-text p {
+	display: block;
+}
+
 
 
 
@@ -2630,6 +2665,23 @@
 
 	.map {
 		height: 350px;
+	}
+
+	.popup {
+		padding: 40px 15px;
+	}
+	.popup-title {
+		font-size: 24px;
+	}
+	.popup-subtitle {
+		font-size: 18px;
+	}
+	.popup .b-form {
+		margin-top: 30px;
+	}
+	.popup-text {
+		margin-top: 20px;
+		font-size: 14px;
 	}
 }
 @media screen and (max-width: 560px){

@@ -37,7 +37,7 @@
 								<a href="tel:+78003505839">8 (800) 350-58-39</a>
 								<span>Звонок по России бесплатный</span>
 							</div>
-							<a href="#" class="header-btn">Заказать звонок</a>
+							<a href="#popup-callback" class="header-btn fancybox">Заказать звонок</a>
 						</div>
 					</div>
 				</div>
@@ -181,7 +181,7 @@
 								</ul>
 							</div>
 							<div class="face-buttons">
-								<a href="#" class="btn">Заказать расчет</a>
+								<a href="#form-calc" class="btn scroll-btn">Заказать расчет</a>
 								<a href="#" class="btn more">Подробнее</a>
 							</div>
 						</div>
@@ -200,7 +200,7 @@
 								</ul>
 							</div>
 							<div class="face-buttons">
-								<a href="#" class="btn">Заказать расчет</a>
+								<a href="#form-calc" class="btn scroll-btn">Заказать расчет</a>
 								<a href="#" class="btn more">Подробнее</a>
 							</div>
 						</div>
@@ -421,7 +421,7 @@
 		</div>
 
 		<div class="b calc">
-			<div class="calc-wrap">
+			<div class="calc-wrap" id ="form-calc">
 				<div class="container">
 					<div class="calc-head" style="background-image:url('i/calc-bg.jpg');">
 						<h2 class="title">Закажите расчёт вашего проекта и мы сократим <span>расходы до&nbsp;40%</span></h2>
@@ -436,7 +436,7 @@
 									<input type="tel" placeholder="+7 (___) ___-__-__">
 								</div>
 								<button type="submit" class="btn">Заказать расчёт</button>
-								<div class="policy-text"><div class="radio-btn active"></div>Я принимаю условия <a href="#" target="_blank">политики<br> обработки персональных данных</a></div>
+								<div class="policy-text"><div class="radio-btn active"></div>Я принимаю условия <a href="#popup-policy" class="fancybox">политики<br> обработки персональных данных</a></div>
 							</form>
 						</div>
 					</div>
@@ -563,7 +563,7 @@
 									<input type="tel" placeholder="+7 (___) ___-__-__">
 								</div>
 								<button type="submit" class="btn">Получить опросный лист</button>
-								<div class="policy-text"><div class="radio-btn active"></div>Я принимаю условия <a href="#" target="_blank">политики<br> обработки персональных данных</a></div>
+								<div class="policy-text"><div class="radio-btn active"></div>Я принимаю условия <a href="#popup-policy" class="fancybox">политики<br> обработки персональных данных</a></div>
 							</form>
 						</div>
 					</div>
@@ -641,7 +641,7 @@
 							</ul>
 							<ul>
 								<li><a href="#" target="_blank">Политика конфиденциальности</a></li>
-								<li><a href="#" target="_blank">Политика обработки персональных данных</a></li>
+								<li><a href="#popup-policy" class="fancybox">Политика обработки персональных данных</a></li>
 							</ul>
 						</div>
 						<div class="footer-logo-dev">
@@ -656,6 +656,33 @@
 		</div>
 
 		<div style="display:none;">
+			<div class="popup" id="popup-callback">
+				<div class="popup-title">Оставьте заявку на&nbsp;обратный звонок</div>
+				<div class="popup-subtitle">Наш менеджер свяжется с Вами в течение 5-10 минут</div>
+				<div class="b-form">
+					<form>
+						<div class="b-input">
+							<label>Ваше имя</label>
+							<input type="text" placeholder="Иван">
+						</div>
+						<div class="b-input">
+							<label>Номер телефона</label>
+							<input type="tel" placeholder="+7 (___) ___-__-__">
+						</div>
+						<button type="submit" class="btn">Оставить заявку</button>
+						<div class="policy-text"><div class="radio-btn active"></div>Я принимаю условия <a href="#popup-policy" class="fancybox">политики<br> обработки персональных данных</a></div>
+					</form>
+				</div>
+			</div>
+
+			<div class="popup popup-big" id="popup-policy">
+				<div class="popup-title">Соглашение на обработку персональных данных</div>
+				<div class="popup-text">
+					<p>Данное соглашение создано нами с целью максимальной защищенности ваших данных. Пожалуйста, прочтите внимательно нашу политику конфиденциальности.<br> Когда вы отправляете заявку на нашем сайте с целью получения услуг, какой-либо справочной информации или обратной связи, вы автоматически даете согласие на обработку нами ваших персональных данных, а также иной информации: хранение, использование и сбор. Мы гарантируем, что ваши личные и персональные данные никогда не будут переданы третьим лицам.</p><br>
+					<p>Все указываемые персональные данные, такие как:<br> • адрес электронной почты,<br> • ваше имя,<br> • контактный номер телефона</p><br>
+					<p>Мы используем исключительно для связи с вами в следующих случаях: ответ на вопросы, обработка ваших заявок.</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
