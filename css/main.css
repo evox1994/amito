@@ -170,7 +170,7 @@
 }
 .header-nav > ul > li.li-drop .drop-wrap .drop-cat-list {
 	padding-right: 10px;
-	min-width: 150px;
+	min-width: 250px;
 }
 .header-nav > ul > li.li-drop .drop-wrap .drop-cat-list > li {
 	padding: 5px 0;
@@ -197,7 +197,7 @@
 	display: block;
 }
 .header-nav > ul > li.li-drop .drop-wrap .drop-list {
-	width: 150px;
+	min-width: 250px;
 }
 .header-nav > ul > li.li-drop .drop-wrap .drop-list > li {
 	padding: 5px 0;
