@@ -368,6 +368,21 @@
 	margin: 10px auto 0;
 }
 
+.wa-btn {
+	display: none;
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	width: 100%;
+	max-width: 143px;
+	z-index: 90;
+}
+.wa-btn img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
 .breadcrumbs {
 	width: 100%;
 	z-index: 10;
@@ -2107,6 +2122,10 @@
 	}
 	.footer-mid {
 		padding: 20px 0;
+	}
+
+	.wa-btn {
+		display: block;
 	}
 
 	.breadcrumbs {
