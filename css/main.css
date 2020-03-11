@@ -133,7 +133,6 @@
 	position: absolute;
 	left: 0;
 	top: 100%;
-	min-width: 150%;
 	max-height: calc(100vh - 108px);
 	overflow-x: hidden;
 	overflow-y: auto;
