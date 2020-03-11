@@ -178,6 +178,17 @@ $(document).ready(function(){
 		$(this).parent('.drop').parent('li.nav-drop').removeClass('active');
 	});
 
+	$('.anim-squere').mousemove(function(e){
+		var sw = $(this).outerWidth();
+		var sh = $(this).outerHeight();
+		var X = e.pageX;
+		var Y = e.pageY;
+
+		if ( $(window).width() > 1024 ){
+			$(this).find('.anim-img').css('transform','translate('+(sw/2 - X)*0.05+'px,'+(sh/2 - Y)*0.1+'px)');
+		}
+	});
+
 	function dropHeight(){
 		var hh = $('.header').outerHeight() - 10;
 		var st = $(window).scrollTop();
