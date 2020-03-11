@@ -101,6 +101,9 @@
 .header-nav > ul > li > a {
 	color: #ffffff;
 }
+.header-nav > ul > li > a:hover {
+	opacity: 0.5;
+}
 .header-nav > ul > li.li-drop {
 	padding-right: 24px;
 }
@@ -275,6 +278,9 @@
 }
 .footer-nav ul li a {
 	color: #ffffff;
+}
+.footer-nav ul li a:hover {
+	opacity: 0.5;
 }
 .footer-cookie {
 	margin-top: 30px;
