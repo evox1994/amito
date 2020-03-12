@@ -1461,18 +1461,42 @@
 .sertificates li a img, .docs li a img {
 	display: block;
 	max-width: 100%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.sertificates li a:hover img, .docs li a:hover img {
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	transform: scale(1.03);
 }
 .sertificates li a p, .docs li a .name {
 	display: block;
 	margin-top: 15px;
 	font-size: 14px;
 	line-height: 1.2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.sertificates li a:hover p, .docs li a:hover .name {
+	color: #295bd8;
 }
 .docs li a .size {
 	margin-top: 10px;
 	color: #979797;
 	font-size: 14px;
 	line-height: 1.2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.docs li a:hover .size {
+	color: #272727;
 }
 
 .news-wrap {
@@ -1665,11 +1689,28 @@
 	display: block;
 	max-width: 100%;
 	margin: 0 auto;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.gallery-list li a:hover img {
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	transform: scale(1.03);
 }
 .gallery-list li p {
 	display: block;
 	font-size: 16px;
 	margin-top: 15px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.gallery-list li a:hover p {
+	color: #295bd8;
 }
 .gallery-list + .btn {
 	margin: 20px auto 0;
@@ -2559,6 +2600,12 @@
 	.sertificates li a img {
 		max-height: 300px;
 	}
+	.sertificates li a:hover img {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
 	.sertificates li a p, .docs li a .name {
 		font-size: 12px;
 		margin-top: 10px;
@@ -2642,6 +2689,12 @@
 	}
 	.gallery-list li img {
 		max-height: 300px;
+	}
+	.gallery-list li a:hover img {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
 	}
 	.gallery-list li p {
 		font-size: 14px;
