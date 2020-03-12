@@ -2286,6 +2286,12 @@
 		width: calc(50% - 10px);
 		margin-bottom: 20px;
 	}
+	.services-list li:hover {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
 	.services-list li .content {
 		padding: 15px;
 	}
@@ -2460,6 +2466,12 @@
 	.product {
 		width: calc(50% - 10px);
 		margin-bottom: 20px;
+	}
+	.product:hover {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
 	}
 	.product .content {
 		padding: 0 15px 15px;
